@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7704C6FE1BD7653600E0A7DA /* PointerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7704C6FD1BD7653600E0A7DA /* PointerView.m */; settings = {ASSET_TAGS = (); }; };
+		77114C1C1BD6569100FC6C92 /* CountLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 77114C1B1BD6569100FC6C92 /* CountLabel.m */; settings = {ASSET_TAGS = (); }; };
 		77CC75541BD4864B00455661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CC75531BD4864B00455661 /* main.m */; };
 		77CC75571BD4864B00455661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CC75561BD4864B00455661 /* AppDelegate.m */; };
 		77CC755A1BD4864B00455661 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CC75591BD4864B00455661 /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		77CC755F1BD4864B00455661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77CC755E1BD4864B00455661 /* Assets.xcassets */; };
 		77CC75621BD4864B00455661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77CC75601BD4864B00455661 /* LaunchScreen.storyboard */; };
 		77CC756D1BD4864B00455661 /* CircleAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CC756C1BD4864B00455661 /* CircleAnimationUITests.m */; };
+		77CC757A1BD4879900455661 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CC75791BD4879900455661 /* CircleView.m */; settings = {ASSET_TAGS = (); }; };
+		77CC757D1BD4E30900455661 /* CircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CC757C1BD4E30900455661 /* CircleAnimationView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7704C6FC1BD7653600E0A7DA /* PointerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointerView.h; sourceTree = "<group>"; };
+		7704C6FD1BD7653600E0A7DA /* PointerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointerView.m; sourceTree = "<group>"; };
+		77114C1A1BD6569100FC6C92 /* CountLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountLabel.h; sourceTree = "<group>"; };
+		77114C1B1BD6569100FC6C92 /* CountLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountLabel.m; sourceTree = "<group>"; };
 		77CC754F1BD4864B00455661 /* CircleAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CC75531BD4864B00455661 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		77CC75551BD4864B00455661 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +48,10 @@
 		77CC75681BD4864B00455661 /* CircleAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77CC756C1BD4864B00455661 /* CircleAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleAnimationUITests.m; sourceTree = "<group>"; };
 		77CC756E1BD4864B00455661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77CC75781BD4879900455661 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		77CC75791BD4879900455661 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		77CC757B1BD4E30900455661 /* CircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleAnimationView.h; sourceTree = "<group>"; };
+		77CC757C1BD4E30900455661 /* CircleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleAnimationView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		77CC75511BD4864B00455661 /* CircleAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				77CC75771BD4873100455661 /* Circle */,
 				77CC75551BD4864B00455661 /* AppDelegate.h */,
 				77CC75561BD4864B00455661 /* AppDelegate.m */,
 				77CC75581BD4864B00455661 /* ViewController.h */,
@@ -109,6 +122,21 @@
 				77CC756E1BD4864B00455661 /* Info.plist */,
 			);
 			path = CircleAnimationUITests;
+			sourceTree = "<group>";
+		};
+		77CC75771BD4873100455661 /* Circle */ = {
+			isa = PBXGroup;
+			children = (
+				7704C6FC1BD7653600E0A7DA /* PointerView.h */,
+				7704C6FD1BD7653600E0A7DA /* PointerView.m */,
+				77CC75781BD4879900455661 /* CircleView.h */,
+				77CC75791BD4879900455661 /* CircleView.m */,
+				77114C1A1BD6569100FC6C92 /* CountLabel.h */,
+				77114C1B1BD6569100FC6C92 /* CountLabel.m */,
+				77CC757B1BD4E30900455661 /* CircleAnimationView.h */,
+				77CC757C1BD4E30900455661 /* CircleAnimationView.m */,
+			);
+			path = Circle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77CC757A1BD4879900455661 /* CircleView.m in Sources */,
 				77CC755A1BD4864B00455661 /* ViewController.m in Sources */,
+				77114C1C1BD6569100FC6C92 /* CountLabel.m in Sources */,
+				77CC757D1BD4E30900455661 /* CircleAnimationView.m in Sources */,
+				7704C6FE1BD7653600E0A7DA /* PointerView.m in Sources */,
 				77CC75571BD4864B00455661 /* AppDelegate.m in Sources */,
 				77CC75541BD4864B00455661 /* main.m in Sources */,
 			);
@@ -342,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CircleAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.duzhoumo.dzm.CircleAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CircleAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.duzhoumo.dzm.CircleAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,6 +436,7 @@
 				77CC75731BD4864B00455661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		77CC75741BD4864B00455661 /* Build configuration list for PBXNativeTarget "CircleAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +445,7 @@
 				77CC75761BD4864B00455661 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
